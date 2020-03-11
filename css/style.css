@@ -155,3 +155,22 @@ main {
 #deploy .one-click {
   padding-right: 42px;
 }
+
+
+
+/* responsive part */
+@media all and (max-width: 1199px) {
+  header .col-md-5 {
+    text-align: right;
+  }
+}
+@media all and (max-width: 991px) {
+  header .col-sm-5 {
+    text-align: right;
+  }
+  #jumbotron {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+}
