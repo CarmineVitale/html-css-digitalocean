@@ -1,7 +1,5 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background: black;
-  color: blue;
 }
 
 /* DEBUG */
@@ -20,5 +18,35 @@ body {
 
 /* Header */
 header {
-  background: red;
+ background: white;
+ height: 70px;
+ padding: 20px;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ z-index: 2;
+ border-bottom: 2px solid blue;
+}
+header .lista1 {
+  margin-top: 6px;
+}
+header ul li a {
+  font-weight: 500;
+  color: #192E5D;
+  font-size: 15px;
+}
+header ul li .btn-blue:hover {
+  text-decoration: none;
+  background-color: green;
+  color: yellow;
+}
+header ul .btn-blue {
+  color: #1979FF;
+  background-color: #fff;
+  border-color: #4F90FF;
+}
+/* Sezione main */
+main {
+  padding-top: 150px;
 }
