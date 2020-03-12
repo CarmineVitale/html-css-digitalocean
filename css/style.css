@@ -161,7 +161,96 @@ main {
 #deploy .one-click {
   padding-right: 42px;
 }
+/* Sezione developers */
+#developers {
+  background: #F4F5F9;
+}
 
+#developers h1 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #031B4E;
+}
+#developers .col-top p {
+  color: #64728E;
+  font-size: 19px;
+  padding-bottom: 30px;
+}
+#developers .col-down p {
+  color: #30446E;
+  font-size: 14px;
+  padding: 5px 0 0;
+  font-weight: 500;
+}
+#developers .slider {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* FRECCE VICINO slider */
+.arrow-sx,
+.arrow-dx {
+  position: relative;
+}
+.fa-chevron-left {
+  color: #6F7B97;
+  font-size: 40px;
+  position: absolute;
+  top: 210px;
+  left: 0px;
+}
+.fa-chevron-right {
+  color: #6F7B97;
+  font-size: 40px;
+  position: absolute;
+  bottom: 185px;
+  right: 0px;
+}
+.fa-chevron-right:hover,
+.fa-chevron-left:hover {
+  color: black;
+}
+/* PAlline sotto slider */
+#developers span i {
+  color: #2485fd;
+  font-size: 14px;
+  padding: 0 4px 30px;
+}
+/*  fine sezione developers */
+
+/* inizio sezione business */
+#business {
+  padding-bottom: 30px;
+
+}
+#business h1 {
+  padding: 20px 0 10px;
+}
+#business  a {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* sezione tabella */
+#customer {
+  background-image: linear-gradient(#0047C5, #00209C);
+  color: white;
+  padding-bottom: 30px;
+}
+#customer h1 {
+  padding-top: 20px;
+}
+#customer .bordo {
+  border-bottom: 1px solid white;
+  line-height: 30px;
+}
+#customer a {
+  font-size: 16px;
+  font-weight: 500;
+}
+#customer .last {
+  
+  line-height: 30px;
+}
 
 
 /* responsive part */
