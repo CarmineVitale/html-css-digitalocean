@@ -185,9 +185,24 @@ main {
 #developers .slider {
   padding-left: 40px;
   padding-right: 40px;
+  position: relative;
+}
+#developers .fa-chevron-left {
+  color: #6F7B97;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+#developers .fa-chevron-right {
+  color: #6F7B97;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  right: 0;
 }
 /* FRECCE VICINO slider */
-#developers .arrow-sx,
+/* #developers .arrow-sx,
 #developers .arrow-dx {
   position: relative;
 }
@@ -204,7 +219,7 @@ main {
   position: absolute;
   bottom: 185px;
   right: 0px;
-}
+} */
 #developers .fa-chevron-right:hover,
 #developers .fa-chevron-left:hover {
   color: black;
