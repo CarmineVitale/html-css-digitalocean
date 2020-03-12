@@ -201,25 +201,7 @@ main {
   top: 50%;
   right: 0;
 }
-/* FRECCE VICINO slider */
-/* #developers .arrow-sx,
-#developers .arrow-dx {
-  position: relative;
-}
-#developers .fa-chevron-left {
-  color: #6F7B97;
-  font-size: 40px;
-  position: absolute;
-  top: 210px;
-  left: 0px;
-}
-#developers .fa-chevron-right {
-  color: #6F7B97;
-  font-size: 40px;
-  position: absolute;
-  bottom: 185px;
-  right: 0px;
-} */
+
 #developers .fa-chevron-right:hover,
 #developers .fa-chevron-left:hover {
   color: black;
@@ -273,6 +255,7 @@ main {
 #rockerbox .rock-slider {
   padding: 70px 145px;
   background: white;
+  position: relative;
 }
 #rockerbox h1 {
   padding-bottom: 40px;
@@ -281,24 +264,22 @@ main {
   font-size: 17px;
   padding: 20px 0 10px;
 }
-#rockerbox .arrow-sx,
-#rockerbox .arrow-dx {
-  position: relative;
-}
+
 #rockerbox .fa-chevron-left {
   color: #6F7B97;
   font-size: 40px;
   position: absolute;
-  top: 134px;
+  top: 50%;
   left: -30px;
 }
 #rockerbox .fa-chevron-right {
   color: #6F7B97;
   font-size: 40px;
   position: absolute;
-  bottom: 165px;
-  left: 101%;
+  top: 50%;
+  right: -30px;
 }
+
 #rockerbox .fa-chevron-right:hover,
 #rockerbox .fa-chevron-left:hover {
   color: red;
