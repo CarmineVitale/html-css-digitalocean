@@ -326,9 +326,7 @@ footer a i {
 
 /* BABY SHARK */
 .fix {
-
   position: fixed;
-
   z-index: 3;
   bottom: 10px;
   right: 20px;
@@ -356,7 +354,8 @@ footer a i {
   transform: rotate(45deg);
 }
 footer .fumetto p {
-  font-size: 10px;
+  font-size: 13px;
+  color: black;
 }
 
 .shark {
@@ -366,7 +365,7 @@ footer .fumetto p {
 }
 footer .shark img {
   width: 80px;
-  background: blue;
+  background: green;
   border-radius: 10px;
 }
 
@@ -415,9 +414,38 @@ footer .shark span {
   header img {
     width: 150px;
   }
-  header .fa-bars {
-
+  footer {
+    padding-bottom: 200px;
   }
+  /* SHARK */
+  .fix {
+    position: fixed;
+    z-index: 3;
+    bottom: 10px;
+    left: 20px;
+  }
+  .fumetto {
+    margin-bottom: 10px;
+  }
+  .fumetto,
+  .shark {
+    display: block;
+  }
+  footer .shark span {
+   position: absolute;
+   top: -12px;
+   left: 65px;
+ }
+ .fumetto::before {
+   content: '';
+   position: absolute;
+   bottom: -5px;
+   left: 15px;
+   width: 10px;
+   height: 10px;
+   background: #fff;
+   transform: rotate(45deg);
+ }
 }
 /* @media all and (max-width: 400px) {
   #partner img {
