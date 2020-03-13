@@ -106,9 +106,7 @@ main {
   background-color: #F4F5F9;
   padding: 20px 0;
 }
-.immagini {
-  width: 98%;
-}
+
 #partner img {
   width: calc(100% / 6 - 10px);
   padding: 0 10px;
@@ -122,11 +120,11 @@ main {
   font-weight: 500;
 }
 /* prova con loghi */
-#partner .inlinea {
+/* #partner .inlinea {
   display: inline-block;
   width: calc((100% / 6)- 10px;)
 
-}
+} */
 
 /* sezione deploy */
 #deploy {
@@ -404,11 +402,21 @@ footer .shark span {
     height: auto;
     padding-bottom: 30px;
   }
-  .immagini {
-    width: 98%;
-  }
+
+}
+@media all and (max-width: 769px) {
   #partner img {
     width: calc(100% / 2 - 10px);
-    padding: 0 10px;
+  }
+  header img {
+    width: 150px;
+    height: auto;
+  }
+  header .fa-bars {
+  
   }
 }
+/* @media all and (max-width: 400px) {
+  #partner img {
+    width: calc(100% - 10px);
+  } */
